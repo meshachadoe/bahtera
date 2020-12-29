@@ -2,3 +2,8 @@
     width: 60vw;
     margin: 0 20vw;
 }
+
+@mixin reset-boxmodel {
+    margin: 0;
+    padding: 0;
+}

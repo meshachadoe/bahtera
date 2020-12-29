@@ -1,6 +1,7 @@
 import React from 'react'
+import './style.scss'
 import nurse from '../../assets/nurse.jpg'
-import logo from '../../assets/logo-small.svg'
+import logo from '../../assets/logo-bpjs.png'
 
 const highlight = {
     heading: 'Klinik Bahtera Kasih Bisa Melayani Peserta BPJS',

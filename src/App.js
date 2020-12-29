@@ -1,14 +1,18 @@
-import "./styles/base.scss"
-import Navbar from './sections/navigation/NavBar'
-import Header from './sections/header/Header'
+import Navbar from './sections/navigation/index'
+import Header from './sections/header/index'
+import Pelayanan from './sections/pelayanan/index'
 
 import allHighlights from './content/allHighlights'
+import pattern from './assets/pattern-batik.svg'
 
-function App() {
+
+const App = () => {
   return (
     <>
+      <img className="batik" src={pattern} alt=""/>
       <Navbar />
       <Header allHighlights={allHighlights}/>
+      <Pelayanan />
     </>
   );
 }

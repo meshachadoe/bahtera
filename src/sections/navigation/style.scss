@@ -1,3 +1,7 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/colors.scss';
+// @import '../../styles/typography.scss';
+
 nav {
 	@include setup-section;
 	margin-top: 10vh;
@@ -25,11 +29,15 @@ nav {
 		}
 	}
 	.nav__call-to-action {
+		@include reset-boxmodel;
 		text-decoration: none;
 		color: $primary-color;
 		background-color: $highlight;
 		padding: 0.8em;
 		border-radius: 20px;
+		h3 {
+			@include reset-boxmodel;
+		}
 		&:hover {
 			border: 2px solid #000;
 		}

@@ -1,6 +1,15 @@
+@import '../../styles/styles.scss';
+
 header {
 	width: 60vw;
+	position: relative;
 	img {
-		margin: 20vh 20vw 3vh 20vw;
+		margin: 15vh 20vw 3vh 20vw;
 	}
+}
+
+.batik {
+	position: absolute;
+	top: 0;
+	right: 0;
 }

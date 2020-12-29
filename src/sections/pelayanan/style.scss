@@ -1,0 +1,36 @@
+@import '../../styles/styles.scss';
+
+.section-pelayanan {
+	//background-image: url('../../assets/patient.jpg');
+	@include reset-boxmodel;
+	background-size: cover;
+	background-color: $primary-color;
+	margin-top: -15vh;
+	height: 100vh;
+	> div {
+		padding-top: 20vh;
+		@include setup-section;
+		> h1 {
+			color: #fff;
+			margin-bottom: 20px;
+		}
+		ul {
+			display: flex;
+			flex-direction: row;
+			list-style: none;
+			justify-content: space-between;
+			margin-bottom: 40px;
+			li {
+				color: #fff;
+				line-height: 180%;
+				width: 10vw;
+				h2:hover {
+					padding: 0.2em 0.4em;
+					color: $primary-color;
+					background-color: $highlight;
+					border-radius: 20px;
+				}
+			}
+		}
+	}
+}
