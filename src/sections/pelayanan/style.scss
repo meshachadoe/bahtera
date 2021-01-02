@@ -6,9 +6,9 @@
 	background-size: cover;
 	background-color: $primary-color;
 	margin-top: -15vh;
-	height: 100vh;
+	height: 120vh;
 	> div {
-		padding-top: 20vh;
+		padding-top: 30vh;
 		@include setup-section;
 		> h1 {
 			color: #fff;
@@ -19,16 +19,18 @@
 			flex-direction: row;
 			list-style: none;
 			justify-content: space-between;
-			margin-bottom: 40px;
+			margin-bottom: 50px;
 			li {
+				font-size: 1.5rem;
+				font-family: degular-display, sans-serif;
+				font-weight: 500;
+				font-style: normal;
 				color: #fff;
-				line-height: 180%;
+				line-height: 90%;
 				width: 10vw;
-				h2:hover {
-					padding: 0.2em 0.4em;
-					color: $primary-color;
-					background-color: $highlight;
-					border-radius: 20px;
+				&:hover {
+					border-top: 3px solid $highlight;
+					//border-radius: 20px;
 				}
 			}
 		}

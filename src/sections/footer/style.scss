@@ -1,0 +1,17 @@
+@import '../../styles/styles.scss';
+
+footer {
+	background-color: $primary-color;
+	height: 30vh;
+	.footer__content {
+		@include setup-section;
+		padding-top: 50px;
+		h3 {
+			width: 30%;
+			margin-left: 70%;
+			text-align: right;
+			font-weight: 500;
+			color: #fff;
+		}
+	}
+}

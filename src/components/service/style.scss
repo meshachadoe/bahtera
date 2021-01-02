@@ -16,17 +16,21 @@
 		background-color: $primary-color;
 		border-bottom-left-radius: 15px;
 		border-bottom-right-radius: 15px;
-		padding: 2em 3em 3em 3em;
+		padding: 2em 3em 2em 3em;
 		p {
 			color: #fff;
-			width: 50%;
+			width: 60%;
 		}
 	}
 	&__img img {
 		border-top-right-radius: 15px;
 		width: 100%;
+		height: auto;
 	}
-	h1 {
+	h2 {
 		color: $primary-color;
+		margin: 10px 0;
+		font-size: 3rem;
+		font-weight: 600;
 	}
 }

@@ -1,0 +1,12 @@
+@import '../../styles/styles.scss';
+
+.section-jadwal {
+	@include setup-section;
+	min-height: 100vh;
+	margin-bottom: 40px;
+	h1 {
+		padding-top: 30vh;
+		color: $primary-color;
+		margin-bottom: 50px;
+	}
+}

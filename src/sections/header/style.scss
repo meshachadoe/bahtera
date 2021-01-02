@@ -1,10 +1,12 @@
 @import '../../styles/styles.scss';
 
 header {
-	width: 60vw;
 	position: relative;
-	img {
-		margin: 15vh 20vw 3vh 20vw;
+	> div {
+		width: 60vw;
+		img {
+			margin: 35vh 20vw 3vh 20vw;
+		}
 	}
 }
 

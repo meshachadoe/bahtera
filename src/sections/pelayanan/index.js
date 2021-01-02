@@ -3,15 +3,16 @@ import ServiceCard from '../../components/service/ServiceCard'
 import './style.scss'
 
 const Pelayanan = () => {
+    const pelayanan = ['Klinik Umum', 'Klinik Gigi', 'Klinik Ibu & Anak', 'Peserta BPJS Kesehatan']
     return (
         <section className='section-pelayanan'>
             <div>
                 <h1>Pelayanan</h1>
                 <ul>
-                    <li><h2>Klinik Umum</h2></li>
-                    <li><h2>Klinik Gigi</h2></li>
-                    <li><h2>Klinik Ibu & Anak</h2></li>
-                    <li><h2>Peserta BPJS Kesehatan</h2></li>
+                    <li>Klinik Umum</li>
+                    <li>Klinik Gigi</li>
+                    <li>Klinik Ibu & Anak</li>
+                    <li>Peserta BPJS Kesehatan</li>
                 </ul>
                 <ServiceCard />
             </div>

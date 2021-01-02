@@ -4,13 +4,23 @@
 
 nav {
 	@include setup-section;
-	margin-top: 10vh;
+	margin-left: calc(20vw - 10px);
+	position: fixed;
+	z-index: 999;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 30px;
+	box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.2);
 	.nav__links {
 		display: flex;
+		img {
+			transform: translateY(40%);
+		}
 	}
 	ul {
 		list-style: none;
