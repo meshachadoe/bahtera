@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className='footer__content'>
                 <h3>Menjadi wadah yang melayani dengan kasih dan berkat</h3>
-                <h3><strong>Copyright © 2021</strong></h3>
+                <h3>KPRJ Bahtera Kasih, Copyright © 2021</h3>
             </div>
         </footer>
     )

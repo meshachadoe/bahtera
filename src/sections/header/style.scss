@@ -3,7 +3,6 @@
 header {
 	position: relative;
 	> div {
-		width: 60vw;
 		img {
 			margin: 35vh 20vw 3vh 20vw;
 		}
@@ -12,6 +11,15 @@ header {
 
 .batik {
 	position: absolute;
-	top: 0;
-	right: 0;
+	width: 30vw;
+	&:nth-of-type(1) {
+		top: 0;
+		right: 0;
+	}
+	&:nth-of-type(2) {
+		z-index: -100;
+		transform: rotate(180deg);
+		bottom: 10vh;
+		left: 0;
+	}
 }

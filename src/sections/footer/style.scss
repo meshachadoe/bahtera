@@ -7,11 +7,13 @@ footer {
 		@include setup-section;
 		padding-top: 50px;
 		h3 {
-			width: 30%;
-			margin-left: 70%;
-			text-align: right;
+			margin-left: 0%;
+			text-align: center;
 			font-weight: 500;
 			color: #fff;
+			&:first-of-type {
+				color: rgba(255, 255, 255, 0.8);
+			}
 		}
 	}
 }
