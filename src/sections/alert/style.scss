@@ -1,0 +1,14 @@
+@import '../../styles/styles.scss';
+
+.alert {
+	height: 6vh;
+	color: $primary-color;
+	background-color: $highlight;
+	> p {
+		width: 100%;
+		transform: translateY(50%);
+		text-align: center;
+		font-size: 0.9rem;
+		font-weight: 700;
+	}
+}

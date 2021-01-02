@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 
+import Alert from './sections/alert/index'
 import Navbar from './sections/navigation/index'
 import Header from './sections/header/index'
 import Pelayanan from './sections/pelayanan/index'
@@ -21,6 +22,7 @@ const App = () => {
 
   return (
     <Router>
+      <Alert />
       <Navbar />
       <Switch>
         <Route exact path='/'>
