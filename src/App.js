@@ -10,6 +10,7 @@ import Footer from './sections/footer/index'
 
 import allHighlights from './content/allHighlights'
 import allSchedule from './content/allSchedule'
+import allServices from './content/allServices'
 
 const App = () => {
   const [ schedule, setSchedule ] = useState([])
@@ -27,7 +28,7 @@ const App = () => {
       <Switch>
         <Route exact path='/'>
           <Header allHighlights={allHighlights}/>
-          <Pelayanan/>
+          <Pelayanan allServices={allServices}/>
         </Route>
         <Route path='/jadwal'>
           <Jadwal allSchedule={allSchedule}/>

@@ -15,19 +15,22 @@
 			margin-bottom: 20px;
 		}
 		ul {
+			height: 50px;
 			display: flex;
 			flex-direction: row;
 			list-style: none;
 			justify-content: space-between;
 			margin-bottom: 50px;
-			li {
+			li button {
 				font-size: 1.5rem;
 				font-family: degular-display, sans-serif;
 				font-weight: 500;
+				text-align: left;
 				font-style: normal;
 				color: #fff;
 				line-height: 90%;
 				width: 10vw;
+				cursor: pointer;
 				&:hover {
 					border-top: 3px solid $highlight;
 					//border-radius: 20px;
@@ -35,4 +38,8 @@
 			}
 		}
 	}
+}
+
+.pelayanan__selected {
+	border-top: 3px solid $highlight;
 }

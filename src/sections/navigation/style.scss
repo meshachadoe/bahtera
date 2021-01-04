@@ -3,8 +3,8 @@
 // @import '../../styles/typography.scss';
 
 nav {
-	@include setup-section;
-	margin-left: calc(20vw - 10px);
+	//@include setup-section;
+	margin-left: calc(20vw - 5px);
 	position: fixed;
 	z-index: 999;
 	margin-top: 10px;

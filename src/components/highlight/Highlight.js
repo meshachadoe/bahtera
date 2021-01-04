@@ -9,7 +9,7 @@ const highlight = {
     imgSrc: '../../assets/nurse.jpg'
 }
 
-const Highlight = ({  }) => {
+const Highlight = () => {
     return (
         <div className="h_slide">
             <div className="h_content">

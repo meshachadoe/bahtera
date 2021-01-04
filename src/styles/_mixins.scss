@@ -1,9 +1,12 @@
 @mixin setup-section {
-    width: 60vw;
-    margin: 0 20vw;
+	width: 60vw;
+	margin: 0 20vw;
 }
 
 @mixin reset-boxmodel {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	background: none;
 }

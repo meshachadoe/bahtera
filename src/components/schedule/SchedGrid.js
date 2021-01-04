@@ -14,6 +14,7 @@ const SchedGrid = ({schedules}) => {
                                 <SchedCard nama={schedule.name} poli={schedule.poli} jam={schedule.jam} />
                             )
                         }
+                        return null
                     })}
                 </div>
             ))
